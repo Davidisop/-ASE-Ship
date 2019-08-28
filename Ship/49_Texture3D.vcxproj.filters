@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{3a1c0052-db8b-44f5-8d9c-4b1f53cb8fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Base">
+      <UniqueIdentifier>{67c2477f-d3f7-43f9-a255-d0449ba2c733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{aef29bd8-9157-4c6b-b1df-757ecf31bd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{1043a743-a899-4681-a1fb-ac391334ba02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BackGround">
+      <UniqueIdentifier>{5eedbbb3-e1a4-462a-8f24-1b7647ac69d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE_Mesh">
+      <UniqueIdentifier>{c7314c47-309f-4161-ac55-2e208012c466}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TDevice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TTimer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xCore.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TInput.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TDevice.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TTimer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="xCore.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="xStd.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="xWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_BaseCamp.h">
+      <Filter>Object Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Handling.h">
+      <Filter>Object Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeLineSetup.h">
+      <Filter>Object Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TInput.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Canon_Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum_Box.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane_for_SkyBox.h">
+      <Filter>BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>ASE_Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ASE.h">
+      <Filter>ASE_Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HLSL.psh" />
+    <FxCompile Include="HLSL.vsh" />
+  </ItemGroup>
+</Project>
